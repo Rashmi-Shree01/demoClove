@@ -1,0 +1,75 @@
+.key-metrics-table2{
+    width: 179%;
+    margin-left: -15%;
+}
+.prdata{
+    margin-left: 5%;
+    font-size: small;
+}
+#table1 td:nth-child(4) {
+    color: green;
+}
+th {
+    text-align: center;
+}
+.card1{
+    border: 2px solid black;
+}
+.negative_value{
+    text-align: right;
+}
+#key_metrics_insights{
+    height: 29.1rem;
+}
+#traffic_insights {
+    height: 13.8rem;
+}
+#orders_insights{
+    height: 13.8rem;
+}
+#acquisition_insights{
+    height: 13.8rem;
+}
+#payments_insights{
+    height: 16rem;
+}
+#customer_retention_insight{
+    height: 13.8rem;
+}
+
+@media screen and (max-width:1025px){
+    .multi-sel {
+        margin-left: -31%;
+    }
+    .key-metrics-table2 {
+        width: 200%;
+        margin-left: -26%;
+    }
+    .prdata {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .multi-sel {
+        margin-left: -81%;
+    }
+    .key-metrics-table2 {
+        width: 39.5rem;
+        margin-left: -1rem;
+    }
+    .key-metrics-table1{
+        margin-left: 0rem;
+        margin-right: 1rem;
+    }
+}
+  
+@media screen and (max-width: 568px){
+    .multi-sel {
+        margin-left: -160%;
+    }
+    .key-metrics-table2 {
+        width: 103.5%;
+        margin-left: -4%;
+    }
+}

@@ -1,0 +1,101 @@
+.sales-card {
+    margin-top: 1.5%;
+    width: 46rem;
+    margin-left: 13rem;
+}
+.conversion-funnel-card{
+    margin-top: 1rem;
+}
+.open .campaign-table-card {
+    margin-top: 1rem;
+    width: 76rem;
+}
+.open .channel-trend-card {
+    margin-top: 1%;
+    width: 46rem;
+    margin-left: 14rem;
+}
+.sales-by-region-card{
+    margin-top: 1rem;
+}
+th {
+    background-color: #eaecef;
+}
+th:hover {
+    cursor: pointer;
+}
+th, 
+td { 
+    text-align: left; 
+    padding: 7px; 
+    border: 1px solid #ddd;
+}
+
+.open .channel-comparison-card {
+    margin-top: 1%;
+}
+.page-item:nth-child(3) .page-link, 
+.page-item:nth-child(2) .page-link,
+.page-item:nth-child(1) .page-link{
+    color: black;
+    background-color: white;
+}
+.page-item:nth-child(1) .page-link{
+    margin-left: 63.4rem;
+}
+
+.page-item:nth-child(3) .page-link:hover,
+.page-item:nth-child(2) .page-link:hover,
+.page-item:nth-child(1) .page-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.page-item:nth-child(1) .page-link-sales, 
+.page-item:nth-child(2) .page-link-sales,
+.page-item:nth-child(3) .page-link-sales {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    color: black;
+}
+
+.page-item:nth-child(1) .page-link-sales:hover,
+.page-item:nth-child(2) .page-link-sales:hover,
+.page-item:nth-child(3) .page-link-sales:hover {
+    background-color: black;
+    color: white;
+}
+
+.page-item:nth-child(1) .page-link-sales {
+    margin-left: 9.1rem;
+}
+.arrow {
+    padding-left: 5rem;
+    width: 6.5rem;
+    margin-top: -1.6rem;
+    color: #ddd;
+}
+.table-h {
+    /* border: 2px solid black */
+    width: 5rem;
+}
+#bar-chart{
+    margin-top: 4.8rem;
+}
+.chartheading{
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    padding-left: 15rem;
+    color: #847a7a;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 6px 6px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 73rem;
+    margin-top: -1rem;
+  }

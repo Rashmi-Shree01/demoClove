@@ -1,0 +1,659 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Insights</title>
+    <meta name="description" content="Essential Insights">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131679538-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131679538-3');
+    </script>
+
+
+    <!-- Hotjar Tracking Code for https://demo.clove.ai/clove -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1424267, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/scss/main.css">
+    <!-- <link rel="stylesheet" href="assets/scss/common.min.css> -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="C:\Users\Rashmi Shree\Desktop\democlove\demo_clove\indexstyle.css" rel='stylesheet' type='text/css'>
+    <link href="C:\Users\Rashmi Shree\Desktop\democlove\demo_clove\storekpistyle.css" rel='stylesheet' type="text/css">
+    
+</head>
+
+<body>
+
+    <!-- Left Panel -->
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default sticky-top">
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/clovelogoMain.png" alt="Clove">
+                </a>
+                <a class="navbar-brand hidden" href="#">
+                    <img src="images/cloveLogo.png" alt="C">
+                </a>
+            </div>
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="recommendations.html">
+                            <i class="menu-icon fa fa-bolt" data-toggle="tooltip" title="Recommendations"></i>
+                            Recommendations
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="menu-icon fa fa-home" data-toggle="tooltip" title="Home"></i> Exec.Summary
+                        </a>
+                    </li>
+                    <li>
+                        <a href="storekpi.html">
+                            <i class="menu-icon fa fa-line-chart" data-toggle="tooltip" title="Sales"></i> Store Kpi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="payments.html">
+                            <i class="menu-icon fa fa-money" data-toggle="tooltip" title="Payments"></i> Payments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="trafficSnapshot.html">
+                            <i class="menu-icon fa fa-user" data-toggle="tooltip" title="Traffic"></i> Traffic
+                        </a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="menu-icon fa fa-bullhorn" data-toggle="tooltip"
+                                title="Campaigns"></i>Campaigns
+                        </a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <a href="campaigns.html">Summary Report</a>
+                            </li>
+                            <li>
+                                <a href="campaignPerformance.html">Performance</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="menu-icon fa fa-truck" data-toggle="tooltip"
+                                title="Shipping Reports"></i>Shipping Reports
+                        </a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <a href="trackingReport.html">Shipping Report</a>
+                            </li>
+                            <li>
+                                <a href="shippingCod.html">COD Report</a>
+                            </li>
+                            <li>
+                                <a href="shippingDetails.html">Shipment Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="customers.html">
+                            <i class="menu-icon fa fa-address-card" data-toggle="tooltip" title="Customers"></i>
+                            Customers
+                        </a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="menu-icon fa fa-tasks" data-toggle="tooltip" title="Advanced Reports"></i>Advanced
+                            Reports</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <!-- <li>
+                                        <a href="advanceTraffic.html">DropOff</a>
+                                    </li> -->
+                            <li>
+                                <!-- <i class="menu-icon fa fa-area-chart" data-toggle="tooltip" title="Customer Analysis"></i> -->
+                                <a href="advanceCustomer.html">Customer</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="menu-icon fa fa-users" data-toggle="tooltip" title="Advanced Traffic"></i>Advanced
+                            Traffic</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <a href="summary.html">Summary</a>
+                            </li>
+                            <li>
+                                <a href="conversions.html">Conversions</a>
+                            </li>
+                            <li>
+                                <a href="journey.html">Journey</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="shoppingFeeds.html">
+                            <i class="menu-icon fa fa-shopping-cart" data-toggle="tooltip"
+                                title="Google Shopping Center"></i> Google Shopping Center
+                        </a>
+                    </li>
+                    <li>
+                        <a href="configurations.html">
+                            <i class="menu-icon fa fa-gears" data-toggle="tooltip" title="Configurations"></i>
+                            Configurations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="allDownloads.html">
+                            <i class="menu-icon fa fa-download" data-toggle="tooltip" title="Downloads"></i> Downloads
+                        </a>
+                    </li>
+                    <!-- <li>
+                                <a href="callRail.html"> 
+                                    <i class="menu-icon fa fa-phone" data-toggle="tooltip" title="CallRail"></i> CallRail
+                                </a>
+                            </li> -->
+                    <!-- /.menu-title -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+    </aside>
+    <!-- /#left-panel -->
+    <!-- Left Panel -->
+
+    <!-- sidepanel for filters -->
+    <div id="mySidenav" class="sidenav">
+        <div class="sidebar-header">
+            <span class="filter-heading">
+                <u>Filters</u>
+            </span>
+            <a href="#" class="closebtn">&times;</a>
+        </div>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            Default Currency
+                            <i class="menu-icon fa fa-sort-down"></i>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <td>
+                                    <div class="globalFilters"
+                                        style="font-weight: 500; margin-left: 3em; height: 117px; overflow: auto"></div>
+                                </td>
+                                <td>
+                                    <input type="radio" name="currency" value="payment" style="margin-left: -5em;">
+                                    <strong>INR</strong>
+                                    <br />
+                                    <input type="radio" name="currency" value="payment" style="margin-left: -5em;">
+                                    <strong>USD</strong>
+                                    <br />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Panel -->
+    <div id="right-panel" class="right-panel">
+        <!-- Header-->
+        <header id="header" class="header sticky-top">
+            <div class="header-menu">
+                <div class="col-sm-7">
+                    <a id="menuToggle" class="menutoggle pull-left">
+                        <i class="fa fa fa-tasks"></i>
+                    </a>
+                    <div class="page-name">
+                        <span>Store KPI</span>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <!-- <a href="http://insights.scalend.com" class="btn btn-info topButton" role="button" style="color: black; background: #ffa500;border-color: #ffa500;">
+                        Start Your Free Trial
+                    </a> -->
+                    <div class="row timeline-row ">
+
+                        <!-- <button class="btn btn-link" style="background: #ffa500; margin-right: -34%; border-color: #ffa500;">
+                            <a href="sales.html" style="color: black">Start Your Free Trial</a>
+                        </button> -->
+                        <div class="multi-sel">
+                            <select class="form-selector time-range">
+                                <option th:text="#{header.yesterday}">Yesterday</option>
+                                <option th:text="#{header.thisweek}">This Week</option>
+                                <option th:text="#{header.lastweek}">Last week</option>
+                                <option th:text="#{header.thismonth}" selected="true">This Month</option>
+                                <option th:text="#{header.lastmonth}">Last month</option>
+                                <option>Last 6 month</option>
+                                <option th:text="#{header.year}">Year</option>
+                            </select>
+                        </div>
+
+                        <div class="dropdown float-right">
+                            <div class="header-left config">
+                                <a href="#">
+                                    <i class="menu-icon fa fa-filter" id="filterNav"></i>
+                                    <!-- <i class="menu-icon fa fa-gears" data-toggle="tooltip" title="Configurations"></i> -->
+                                </a>
+                            </div>
+                            <!-- <button class="btn btn-info" id="filterNav">+</button> -->
+                        </div>
+
+                        <div class="float-right logout">
+                            <a class="nav-link" href="page-login.html">
+                                <i class="fa fa-power-off" data-toggle="tooltip" title="Logout"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- Header-->
+
+        <!-- .content -->
+
+        <div class="container-fluid">
+            <div class="card" >
+                <div class="card-body">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="store-trend-tab" data-toggle="tab" href="#store-trend" role="tab" aria-selected="true">Store Trend</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="conversion-funnel-tab" data-toggle="tab" href="#conversion-funnel" role="tab" aria-selected="false">Conversion Funnel</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="acquisition-by-source-tab" data-toggle="tab" href="#acquisition-by-source" role="tab" aria-selected="false">Acquisition By Source</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="sales-trend-tab" data-toggle="tab" href="#sales-trend" role="tab" aria-selected="false">Sales Trend</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="sales-index-tab" data-toggle="tab" href="#sales-index" role="tab" aria-selected="false">Sales Index</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="sales-by-region-tab" data-toggle="tab" href="#sales-by-region" role="tab" aria-selected="false">Sales By Region</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="store-trend" role="tabpanel" aria-labelledby="store-trend-tab">
+                            <div class="card sales-card">
+                                <div class="class-header">
+                                    <div class="card-body pb-0">
+                                        <div class="multi-sel">
+                                            <select class="form-selector prodCategoryFilter" id="categoryFilterDashboard"
+                                                style="visibility:hidden">
+                                                <option selected="true">Products</option>
+                                                <option>Category</option>
+                                            </select>
+                                        </div>
+                                        <p class="title-for-card">
+                                            Store Trend
+                                            <small>
+                                                <i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover"
+                                                    data-placement="bottom" data-original-title="Store Trend" data-html="true"
+                                                    data-content="Unified performance metrics across Store, Payment gateway &amp; traffic"></i>
+                                            </small>
+                                        </p>
+                                        <h4 class="mb-0">
+                                            <!-- <span class="sales">{{ currency }}{{ sales.totalSales | formatting}} <span
+                                                    v-if="sales.salesDisplay"> <i class="trend-icons"
+                                                        v-bind:class="[sales.totalSalesIncreased ? (sales.diff_totalSales == 0 ? 'up-trend-icon fa fa-arrows-h' : 'up-trend-icon fa fa-arrow-up') :'down-trend-icon fa fa-arrow-down']"></i>
+                                                </span> <span v-if="sales.salesDisplay == false"> <i
+                                                        class="trend-icons" />
+                                                </span>
+                                                </span> -->
+                                        </h4>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="card-body pb-0">
+                                    <!-- <div class="productSales">
+                                            <canvas id="productChart"></canvas>
+                                        </div> -->
+                                    <!-- <div class="productCategorySales">
+                                            <canvas id="categoryChart"></canvas>
+                                        </div> -->
+                                    <div class="productCategorySales">
+                                        <canvas id="storeTrendChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="conversion-funnel" role="tabpanel" aria-labelledby="conversion-funnel-tab">
+                            <div class="card conversion-funnel-card">
+                                <div class="card-body">
+                                    <div class="col col-sm-6">
+                                        <div class="table-responsive-lg">
+                                            <table class="table">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col"></th>
+                                                    <th scope="col">Count</th>
+                                                    <th scope="col">Percentage</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td>Visitors</td>
+                                                    <td>513,757</td>
+                                                    <td>100%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Registrations</td>
+                                                    <td>0</td>
+                                                    <td>0%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Add to Cart</td>
+                                                    <td>0</td>
+                                                    <td>0%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Submitted</td>
+                                                    <td>0</td>
+                                                    <td>0%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Approved</td>
+                                                    <td>0</td>
+                                                    <td>0%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Orders</td>
+                                                    <td>12,081</td>
+                                                    <td>2.35%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Payments</td>
+                                                    <td>8,612</td>
+                                                    <td>1.68%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Cancelled orders</td>
+                                                    <td>113</td>
+                                                    <td>0.02%</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Failed Payments</td>
+                                                    <td>1,203</td>
+                                                    <td>0.23%</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+                                    </div>
+                                    <div class="col col-sm-6">
+                                        <canvas id="bar-chart" width="800" height="450"></canvas>
+                                        <div class="chartheading">Percentage</div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane fade" id="acquisition-by-source" role="tabpanel" aria-labelledby="acquisition-by-source-tab">
+                            <div class="card campaign-table-card">
+                                <div class="class-header">
+                                    <div class="card-body pb-0">
+                                        <p class="title-for-card">Acquisition Report
+                                            <small>
+                                                <i class="fa fa-info-circle" data-toggle="popover" data-placement="bottom"
+                                                    data-original-title="Acquisition Report" data-html="true"
+                                                    data-trigger="hover"
+                                                    data-content="Channel wise acquisition details for the selected timeline."></i>
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card-body pb-0">
+                                    <table id="acquisitionTable">
+                                        <tbody>
+                                            <thead>
+                                                <tr>
+                                                    <th rowspan="2">Source</th>
+                                                    <th colspan="3" th:text="#{trafficsnapshot.acquisition}">Acquisition
+                                                    </th>
+                                                    <th colspan="3" th:text="#{trafficsnapshot.behaviour}">Behavior</th>
+                                                    <th colspan="3" th:text="#{trafficsnapshot.conversions}">Conversions
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th>Users</th>
+                                                    <th>New Users</th>
+                                                    <th>Sessions</th>
+                                                    <th th:text="#{trafficsnapshot.users}">Bounce Rate</th>
+                                                    <th>Pages/Session</th>
+                                                    <th th:text="#{trafficsnapshot.sessions}">Avg Session Duration</th>
+                                                    <th th:text="#{trafficsnapshot.bouncerate}">Conversion Rate</th>
+                                                    <th th:text="#{trafficsnapshot.pages/session}">Conversion Rate</th>
+                                                    <th>Revenue</th>
+                                                </tr>
+                                            </thead>
+                                        </tbody>
+                                    </table>
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination">
+                                          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div>
+                                    <button class="button"><i class="fa fa-download"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="sales-trend" role="tabpanel" aria-labelledby="sales-trend-tab">
+                            <div class="card channel-trend-card">
+                                <div class="class-header">
+                                    <div class="card-body pb-0">
+                                        <p class="title-for-card">Sales Trend
+                                            <small>
+                                                <i class="fa fa-info-circle" data-toggle="popover" data-placement="bottom"
+                                                    data-original-title="Sales Trend" data-html="true" data-trigger="hover"
+                                                    data-content="Sales trend for the selected timeline.<br/>
+                                                        Fast Moving: Product with maximum units sold when compared to previous time period (# of units sold)<br/>
+                                                        Trending: Product with maximum increase in units sold when compared to previous time period<br/>
+                                                        Slow moving: Product with minimum units sold when compared to previous time period (# of units sold)"></i>
+                                            </small>
+                                        </p>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="card-body pb-0">
+                                    <div class="salesWithTrend">
+                                        <!-- <canvas id="salesTrendChart"></canvas> -->
+                                        <canvas id="LineChart" width="800" height="450"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="sales-index" role="tabpanel" aria-labelledby="sales-index-tab">
+                            <div class="card channel-comparison-card">
+                                <div class="class-header">
+                                    <div class="card-body pb-0">
+                                        <p class="title-for-card">Sales Index
+                                            <small>
+                                                <i class="fa fa-info-circle" data-toggle="popover" data-placement="bottom"
+                                                    data-original-title="Sales Index" data-html="true" data-trigger="hover"
+                                                    data-content="# of units sold every day and 2 hour time interval in the selected channel and for the selected timeline<br/>
+                                                    Best Selling Day: Day with Max. sales in terms of Revenue & items sold<br/>
+                                                    Best Selling Period: 4 hour window when maximum sales happened<br/>
+                                                    Worst Selling Day: 4 hour window with least sales"></i>
+                                            </small>
+                                        </p>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="card-body pb-0">
+                                    <div class="heatmapChart">
+                                        <div id="daySalesChart"></div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="tab-pane fade" id="sales-by-region" role="tabpanel" aria-labelledby="sales-by-region-tab">
+                            <div class="card sales-by-region-card">
+                                <div class="class-header">
+                                    <div class="card-body pb-0">
+                                        <p class="title-for-card">Sales by Region
+                                            <small>
+                                                <i class="fa fa-info-circle" data-toggle="popover" data-placement="bottom"
+                                                    data-original-title="Sales Trend" data-html="true" data-trigger="hover"
+                                                    data-content="Sales trend for the selected timeline.<br/>
+                                                        Fast Moving: Product with maximum units sold when compared to previous time period (# of units sold)<br/>
+                                                        Trending: Product with maximum increase in units sold when compared to previous time period<br/>
+                                                        Slow moving: Product with minimum units sold when compared to previous time period (# of units sold)"></i>
+                                            </small>
+                                        </p>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4 country_table" >
+                                            <table id="countrytable">
+                                                <tbody>
+                                                    <thead class="hi">
+                                                        <tr>
+                                                            <th>Country Name</th>
+                                                            <th>Sales</th>
+                                                        </tr>
+                                                    </thead>
+                                                </tbody>
+                                            </table>
+                                            <nav aria-label="Page navigation example">
+                                                <ul class="pagination">
+                                                  <li class="page-item"><a class="page-link-sales" href="#">Previous</a></li>
+                                                  <li class="page-item"><a class="page-link-sales" href="#">1</a></li>
+                                                  <li class="page-item"><a class="page-link-sales" href="#">Next</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <table id="statetable" class="state_table">
+                                                <tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>State Name</th>
+                                                            <th>Sales</th>
+                                                        </tr>
+                                                    </thead>
+                                                </tbody>
+                                            </table>
+                                            <nav aria-label="Page navigation example">
+                                                <ul class="pagination">
+                                                  <li class="page-item"><a class="page-link-sales" href="#">Previous</a></li>
+                                                  <li class="page-item"><a class="page-link-sales" href="#">1</a></li>
+                                                  <li class="page-item"><a class="page-link-sales" href="#">Next</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <table id="citytable" class="city_table">
+                                                <tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>City Name</th>
+                                                            <th>Sales</th>
+                                                        </tr>
+                                                    </thead>
+                                                </tbody>
+                                            </table>
+                                            <nav aria-label="Page navigation example">
+                                                <ul class="pagination">
+                                                  <li class="page-item"><a class="page-link-sales" href="#">Previous</a></li>
+                                                  <li class="page-item"><a class="page-link-sales" href="#">1</a></li>
+                                                  <li class="page-item"><a class="page-link-sales" href="#">Next</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="main-footer">
+                <div style="text-align: right">
+                    <strong>
+                        Copyright © 2019
+                        <a href="http://www.clove.ai" target="_blank">
+                            <img class="footer-logo" src="images/bottomCloveLogo.jpg" alt="C">Clove</a>
+                    </strong>
+                </div>
+            </footer>
+        
+
+        </div>
+    <!-- /#right-panel -->
+    <!-- Right Panel -->
+
+    <script src="assets/js/lib/data-table/datatables.min.js"></script>
+    <script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+    <script src="aquisitiontable.js"></script>
+    <script src="salesregiontables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="storekpicharts.js"></script>   
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="storekpitimelinechangesdashboard.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="storekpijs.js"></script>
+    
+
+
+
+</body>
+
+</html>
